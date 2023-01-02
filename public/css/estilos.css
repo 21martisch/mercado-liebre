@@ -1,0 +1,489 @@
+body {
+    font-family: "Roboto";
+  }
+  
+  .bg-yellow {
+    background-color: #eac926;
+  }
+  
+  .bg-dark-grey {
+    background-color: #666;
+  }
+  
+  .bg-grey {
+    background-color: #ebebeb;
+  }
+  
+  .bg-blue {
+    background-color: #1259c3;
+  }
+  
+  .bg-white {
+    background-color: white;
+  }
+  
+  .color-green {
+    color: #39b54a;
+  }
+  
+  .font-m {
+    font-size: 12px;
+  }
+  .font-lg {
+    font-size: 16px;
+  }
+  .font-xl {
+    font-size: 18px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .logo {
+    width: 50%;
+  }
+  
+  .vw-90 {
+    width: 90vw;
+  }
+  
+  .w-100 {
+    width: 100%;
+  }
+  
+  .b-1 {
+    border-style: solid;
+  }
+  
+  .bt-1 {
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .b-none {
+    border: none;
+  }
+  
+  .border-grey {
+    border-color: #ebebeb;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .color-white {
+    color: white;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+  
+  .radius-1 {
+    border-radius: 5px;
+  }
+  
+  .p-1 {
+    padding: 8px;
+  }
+  .p-2 {
+    padding: 20px;
+  }
+  
+  .py-1 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  
+  .my-1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .mr-1 {
+    margin-right: 8px;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .flex-grow {
+    flex-grow: 1;
+  }
+  
+  .gap {
+    gap: 10px;
+  }
+  
+  .align-center {
+    align-self: center;
+  }
+  
+  .outline-none {
+    outline: none;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .product-shadow {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  
+  .truck-icon {
+    color: green;
+    border: green solid 1px;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    right: 15px;
+    top: -15px;
+    transition: 2s;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  .form-register{
+    display: flex;
+    background-color: white;
+    width: 40%;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow:0px 0px 10px rgb(100, 100, 100) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  .form-register .nombre, .usuario, .domicilio, .contraseña{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: black;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1.8px solid #eac926;
+  }
+  #fecha{
+    margin-top: 10px;
+    width: 150px;
+    padding: 10px;
+    border: none;
+  }
+  #perfil-1{
+    margin-left: 100px;
+  }
+  .form-register .enviar{
+    position: relative;
+    right: 20px;
+    width: 50%;
+    background: #091f54ad;
+    border: none;
+    padding: 10px;
+    margin: 9px 0px;
+    color: white;
+    font-size: 20px;
+  }
+  .form-register .borrar{
+    position: relative;
+    left: 220px;
+    bottom: 61px;
+    width: 50%;
+    background: rgba(135, 14, 14, 0.682);
+    border: none;
+    padding: 10px;
+    margin: 9px 0px;
+    color: white;
+    font-size: 20px;
+  }
+  .form-register .enviar:hover, .enviar:focus{
+    background: rgb(71, 106, 196) ;
+    color: black;
+    transition: background-color 1s ease-out;
+  }
+  .form-register .borrar:hover, .borrar:focus{
+    background: rgb(196, 71, 71) ;
+    color: black;
+    transition: background-color 1s ease-out;
+  }
+  .form-login{
+    display: flex;
+    background-color: white;
+    width: 30%;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow:0px 0px 10px rgb(100, 100, 100) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+  }
+  
+  .form-login input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: black;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1.8px solid #eac926;
+  }
+  .form-login button{
+    width: 100%;
+    background: #091f54ad;
+    border: none;
+    padding: 10px;
+    margin: 9px 0px;
+    color: white;
+    font-size: 20px;
+  }
+  .form-login button:hover,
+  .form-login button:focus{
+    background: rgb(71, 106, 196) ;
+    color: black;
+    transition: background-color 1s ease-out;
+  }
+  .titulo-form{
+    text-align: center;
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+  }
+  
+  .cont-footer{
+    position: relative;
+    display: flex;
+    margin: 10px;
+    margin-top: 50px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .cont-footer i{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  .cont-footer:hover i{
+    color: goldenrod;
+  }
+  
+  @media (min-width: 280px) {
+    .logo{
+      width: 40%;
+    }
+    .p-2{
+      padding: 4px;
+      margin-left: 10px;
+      width: 50%;
+    }
+    .p-2 .p-1 input{
+      width: 22%;
+    }
+    .nav{
+      display: none;
+    }
+    .form-login{
+      width: 60%;
+    }
+    .form-register{
+      width: 100%;
+      margin-left: 10px;
+    }
+    .form-register .enviar{
+      left: 20px;
+      width: 40%;
+    }
+    .form-register .borrar{
+      width: 40%;
+      left: 30px;
+      bottom: 1px;
+    }
+  }
+  @media (min-width: 481px) {
+    /* tablet */
+    .md-w-50 {
+      width: 48%;
+    }
+    .nav{
+      display:none ;
+    }
+    .p-2{
+      padding: 15px;
+      width: 50%;
+    }
+    .p-2 .p-1 input{
+      width: 30%;
+    }
+    .form-login{
+      width: 30%;
+    }
+    .form-register{
+      width: 50%;
+      margin: auto;
+      margin-top: 50px;
+    }
+    .form-register .enviar{
+      left: 5px;
+      width: 40%;
+    }
+    .form-register .borrar{
+      left: 30px;
+      bottom: 1px;
+      width: 40%;
+    }
+  }
+  
+  @media (min-width: 913px) {
+    /* laptop */
+    .p-2{
+      padding: 20px;
+      width: 40%;
+    }
+    .logo{
+      width: 25%;
+    }
+    .lg-w25 {
+      width: 23%;
+    }
+    .compra{
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      bottom: 60px;
+      right: 40px;
+    }
+    .nav{
+      position: relative;
+      display: flex;
+      margin-bottom: 50px;
+    }
+    .nav-link{
+      padding-right: 15px;
+    }
+    .nav-2{
+      position: relative;
+      margin-left:310px ;
+    }
+    .py-1{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      position: relative;
+    }
+    .product-shadow {
+      box-shadow: none;
+    }
+    .bg-blue{
+      display: none;
+    }
+    .description {
+      display: none;
+    }
+    .form-login{
+      width: 30%;
+    }
+    .form-register{
+      width: 50%;
+      margin: auto;
+      margin-top: 50px;
+    }
+    .form-register .enviar{
+      right: 20px;
+      width: 50%;
+    }
+    .form-register .borrar{
+      left: 220px;
+      bottom: 61px;
+      width: 50%;
+    }
+    .footer{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: auto;
+      margin-left: 80px;
+    }
+    .product:hover .description {
+      display: block;
+    }
+    .product-shadow:hover{
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .truck-icon:hover{
+      transform: rotate(360deg);
+    }
+    .nav-link:hover{
+      text-decoration: underline;
+    }
+  }
+  
+  @media (min-width: 1281px) {
+    /* desktop */
+    .compra{
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      bottom: 85px;
+      right: 130px;
+    }
+    .nav-link{
+      padding-right: 18px;
+    }
+    .nav-2{
+      position: relative;
+      margin-left:720px ;
+    }
+    .form-login{
+      width: 30%;
+    }
+    .form-register{
+      width: 40%;
+      margin: auto;
+      margin-top: 50px;
+    }
+    .form-register .enviar{
+      right: 20px;
+      width: 50%;
+    }
+    .form-register .borrar{
+      left: 220px;
+      bottom: 61px;
+      width: 50%;
+    }
+    
+  }
+
